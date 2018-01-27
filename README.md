@@ -1,5 +1,3 @@
-# DilipTesting
-
 parameter 			| type		| description		| default	| required
  ----------			|---------- |----------			| --------	| --------
 per_page			| int		| per page records 	| 20		| no
@@ -13,9 +11,6 @@ subscriber_email	| string	| customer email	| N/A		| no
 subscriber_telephone| string	| customer email	| N/A		| no
 depature_date_max	| date		| departure date max| N/A		| no
 depature_date_min	| date		| departure date min| N/A		| no
-search_id			| int		| providerId, productId, orderId, provider name, provider tour code,  product name or product code 				| N/A 		| no
+search_id			| string/int		| providerId, productId, orderId, provider name, provider tour code,  product name or product code 				| N/A 		| no
  
 				
-
-			
-
